@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <h1>Welcome to Pokeneas App</h1>
+    <p>Here you can find all the information about your favorite pokeneas</p>
+    <div>
+        <button class="button">
+            <a href="{{ url_for('obtain') }}">Json API View</a>
+        </button>
+        
+        <button class="button">
+            <a href="{{ url_for('pokeneaView') }}">Pokenea View</a>
+        </button>
+    </div>
+{% endblock %}
