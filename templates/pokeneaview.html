@@ -3,8 +3,13 @@
 {% block body %}
     <h1>Pokenea View</h1>
 
-    <p>Id del contenedor: </p>
-    <div>
+    <p>Nombre: {{ pokenea.frase_filosofica }}</p>
+
+    <img src="#" alt="imagen pokenea">
+
+    <p style="margin-top: 10px;">Id del contenedor: {{ container_id }}</p>
+
+    <div style="margin-top: 10px;">
         <a href="{{ url_for('index')}}"">Home</a>
     </div>
     

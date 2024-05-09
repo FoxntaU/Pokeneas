@@ -8,19 +8,24 @@ app = Flask(__name__)
 with open('pokeneas.json', 'r') as file:
     pokeneas = json.load(file)
 
+def get_pokenea():
+    return random.choice(pokeneas)
+
 @app.route('/')
 def index():
     return render_template('index.html')
 
 @app.route('/pokeneaRandom', methods=['GET'])
 def obtain():
-    pokenea = random.choice(pokeneas)
+    pokenea = get_pokenea()
     pokenea['container_id'] = os.uname()[1]
     return jsonify(pokenea)
 
 @app.route('/pokeneaView')
 def pokeneaView():
-    return render_template('pokeneaView.html')
+    pokenea = get_pokenea()
+    container_id = os.uname()[1]
+    return render_template('pokeneaView.html', pokenea = pokenea, container_id=container_id)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
