@@ -4,7 +4,7 @@
       "nombre": "Pikachu",
       "altura": 0.4,
       "habilidad": "Electricidad estática",
-      "imagen": "pikachu.jpg",
+      "imagen": "https://storage.googleapis.com/pokeneastis/pikachu.jpg",
       "frase_filosofica": "La verdadera sabiduría está en saber que no sabes nada."
     },
     {
@@ -12,7 +12,7 @@
       "nombre": "Bulbasaur",
       "altura": 0.7,
       "habilidad": "Espesura",
-      "imagen": "bulbasaur.jpg",
+      "imagen": "https://storage.googleapis.com/pokeneastis/Bulbasaur.png",
       "frase_filosofica": "La fuerza de la naturaleza reside en su equilibrio."
     },
     {
@@ -20,7 +20,7 @@
       "nombre": "Charmander",
       "altura": 0.6,
       "habilidad": "Mar llamas",
-      "imagen": "charmander.jpg",
+      "imagen": "https://storage.googleapis.com/pokeneastis/Charmander.jpg",
       "frase_filosofica": "El fuego purifica y da vida, pero también consume si no se controla."
     },
     {
@@ -28,7 +28,7 @@
       "nombre": "Squirtle",
       "altura": 0.5,
       "habilidad": "Torrente",
-      "imagen": "squirtle.jpg",
+      "imagen": "https://storage.googleapis.com/pokeneastis/Squirtle.jpg",
       "frase_filosofica": "El agua es la fuente de la vida y la serenidad."
     },
     {
@@ -36,7 +36,7 @@
       "nombre": "Jigglypuff",
       "altura": 0.5,
       "habilidad": "Vozarrón",
-      "imagen": "jigglypuff.jpg",
+      "imagen": "https://storage.googleapis.com/pokeneastis/Jigglypuff.png",
       "frase_filosofica": "La melodía del corazón es la más sincera de las canciones."
     },
     {
@@ -44,7 +44,7 @@
       "nombre": "Mewtwo",
       "altura": 2,
       "habilidad": "Presión",
-      "imagen": "mewtwo.jpg",
+      "imagen": "https://storage.googleapis.com/pokeneastis/Mewtwo.png",
       "frase_filosofica": "El poder absoluto corrompe absolutamente, incluso en los más poderosos."
     },
     {
@@ -52,7 +52,7 @@
       "nombre": "Pidgey",
       "altura": 0.3,
       "habilidad": "Vista lince",
-      "imagen": "pidgey.jpg",
+      "imagen": "https://storage.googleapis.com/pokeneastis/Pidgey.png",
       "frase_filosofica": "La perspectiva amplía la mente y el horizonte."
     },
     {
@@ -60,24 +60,8 @@
       "nombre": "Meowth",
       "altura": 0.4,
       "habilidad": "Recogida",
-      "imagen": "meowth.jpg",
+      "imagen": "https://storage.googleapis.com/pokeneastis/Meowth.png",
       "frase_filosofica": "La perseverancia es la llave que abre todas las puertas."
-    },
-    {
-      "id": 9,
-      "nombre": "Eevee",
-      "altura": 0.3,
-      "habilidad": "Adaptabilidad",
-      "imagen": "eevee.jpg",
-      "frase_filosofica": "La diversidad es la clave de la supervivencia y la evolución."
-    },
-    {
-      "id": 10,
-      "nombre": "Snorlax",
-      "altura": 2.1,
-      "habilidad": "Inmunidad",
-      "imagen": "snorlax.jpg",
-      "frase_filosofica": "El descanso es parte fundamental de la fuerza y la salud."
     }
   ]
   
